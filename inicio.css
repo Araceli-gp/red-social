@@ -1,0 +1,161 @@
+/*Colores definidos*/
+:root {
+    --principal: #7EB9DB;
+    --princlaro: #91DDEA;
+    --some: #FFA5D8;
+    --subclaro: #BD9DDE;
+    --suboscuro: #9579D0;
+}
+
+/*Post*/
+.container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 0;
+  height: auto;
+  width: auto;
+  max-width: 500px;
+  background: var(--some);
+  border-radius: 20px;
+  box-shadow: 7px 7px 25px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+form {
+  margin: 0;
+  padding: 0;
+}
+/*parte superior del post*/
+.superior-post {
+  padding: 0;
+  margin: 0;
+  background: #9f85d5;
+  border-radius: 20px 20px 0 0;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+}
+.s-post {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*imagen del perfil*/
+.foto-post {
+  min-height: 80px;
+  min-width: 80px;
+  display: flex;
+}
+.foto {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  height: 70px;
+  width: 70px;
+  background: black;
+  border-radius: 100%;
+}
+/*texto del post*/
+.text-post {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+.text-post textarea {
+  background: #b892dd;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  outline: none;
+}
+textarea {
+  max-width: 880px;
+  min-height: 76px;
+  min-width: 280px;
+}
+textarea:hover {
+  background: var(--subclaro);
+  cursor: pointer;
+}
+textarea:focus {
+  cursor: text;
+  background: var(--subclaro);  
+}
+.text-post button {
+  align-items: flex-end;
+}
+/*botones inferiores*/
+.boton-post {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.boton-post button {
+  background: var(--subclaro);
+}
+
+
+/*footer*/
+.ultimo {
+  background: rgb(236, 231, 231);
+  display: flex;
+  flex-wrap: wrap;
+}
+.columna_1 {
+  background: rgb(236, 231, 231);
+  margin: 30px 45px;
+  margin-bottom: 40px;
+  width: 500px;
+  text-align: justify;
+}
+.columna_2 {
+  background: rgb(236, 231, 231);
+  margin: 30px 45px;
+  margin-bottom: 40px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+.columna_2 h2 {
+  text-align: center;
+}
+.columna_2 i {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+/* button to go top */
+.buttonup {
+    width: 60px;
+    height: 60px;
+    background:  #61cc33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    border: 4px solid transparent;
+    transition: all 300ms ease;
+  }
+  .buttonup:hover {
+    opacity: 0.75;
+    transform: scale(1.1);
+    border-color: rgba(0, 0, 0, 0.1);
+  }
+  .hide {
+    opacity: 0;
+  }
+  /*class button*/
+  .active {
+    opacity: 1;
+  }
