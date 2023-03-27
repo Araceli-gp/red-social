@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="darkcode.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="contenido_general">
+        <header>
+            <nav class="navbar bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="darkcode.html"> <i class="fa-solid fa-dragon"></i>DarkCode</a>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                    <div>
+                        <a href="inicio.html"><i class="fa-solid fa-house"></i></a>
+                        <i class="fa-solid fa-bell"></i>
+                        <i class="fa-solid fa-circle-user"></i>
+                    </div>
+                    <div class="cerrar_cuenta">
+                        <i id="cerrar" class="fa-solid fa-right-from-bracket"></i>
+                    </div>
+                </div>
+
+            </nav>
+        </header>
+        <div class="general">
+            <!--TARJETAS DE PRESENTACION-->
+            <h1>SOBRE NOSOTRAS</h1>
+            <div class="cartas">
+                <div class="card card-ds">
+                    <img src="https://cdn.pixabay.com/photo/2017/10/17/16/10/fantasy-2861107_1280.jpg"
+                        class="card-img-top" alt="imagen profunda">
+                    <div class="card-body">
+                        <h5 class="card-title">Cony Pizango</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <p class="card-text"><i class="fa-solid fa-arrow-down"></i> Link de su GitHub. </p>
+                        <a href="https://github.com/conypizango" class="btn btn-primary">Siguela <i
+                                class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="card card-ds">
+                    <img src="https://cdn.pixabay.com/photo/2017/10/17/16/10/fantasy-2861107_1280.jpg"
+                        class="card-img-top" alt="imagen profunda">
+                    <div class="card-body">
+                        <h5 class="card-title">Antonella Perez</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <p class="card-text"><i class="fa-solid fa-arrow-down"></i> Link de su GitHub. </p>
+                        <a href="https://github.com/PilarChuan" class="btn btn-primary">Siguela <i
+                                class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="card card-ds">
+                    <img src="https://cdn.pixabay.com/photo/2017/10/17/16/10/fantasy-2861107_1280.jpg"
+                        class="card-img-top" alt="imagen profunda">
+                    <div class="card-body">
+                        <h5 class="card-title">Araceli Guzmán</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <p class="card-text"><i class="fa-solid fa-arrow-down"></i> Link de su GitHub. </p>
+                        <a href="https://github.com/Araceli-gp" class="btn btn-primary">Siguela <i
+                                class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="card card-ds">
+                    <img src="https://cdn.pixabay.com/photo/2017/10/17/16/10/fantasy-2861107_1280.jpg"
+                        class="card-img-top" alt="imagen profunda">
+                    <div class="card-body">
+                        <h5 class="card-title">Evelyn Sanchez</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <p class="card-text"><i class="fa-solid fa-arrow-down"></i> Link de su GitHub. </p>
+                        <a href="https://github.com/Evilsanchez" class="btn btn-primary">Siguela <i
+                                class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="buttonup hide" id="bup">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+        <!-- Footer -->
+        <footer class="ultimo">
+            <div class="columna_1">
+                <h2>Light</h2>
+                <p>Fusce eget velit vestibulum, dictum ipsum quis, finibus tellus. Pellentesque eget lacus lectus. Nam bibendum, enim a mattis egestas, augue tortor ornare justo, a auctor lorem ante ac sem. Nunc eget mattis urna. Quisque sit amet lectus quis felis faucibus.</p>
+            </div>
+            <div class="columna_2">
+                <h4>Fue creado por el grupo:</h4>
+                <h2>DarkCode</h2>
+                <i class="fa-solid fa-dragon fa-beat fa-4x"></i>
+                <p>Praesent cursus blandit odio, id fermentum nisi hendrerit sed. Quisque nisl metus, dictum quis laoreet eu, efficitur quis dui. Donec.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://kit.fontawesome.com/679880fd67.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
