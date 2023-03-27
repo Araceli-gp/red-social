@@ -1,0 +1,43 @@
+/*Colores definidos*/
+:root {
+    --principal: #7EB9DB;
+    --princlaro: #91DDEA;
+    --some: #FFA5D8;
+    --subclaro: #BD9DDE;
+    --suboscuro: #9579D0;
+}
+html {
+    background: var(--princlaro);
+}
+.formulario {
+    width: 400px;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 7px 7px 25px rgba(0, 0, 0, 0.2);
+    margin-left: 0;
+    margin-right: 0;
+}
+form div {
+    margin-bottom: 5px;
+}
+div h2 {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+div p {
+  font-size: 13px;
+  color: #636363;
+}
+.boton-cont {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
